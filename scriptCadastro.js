@@ -12,7 +12,7 @@ async function cadastrarUsuario() {
     };
 
     try {
-        const resposta = await fetch('http://receita.azurewebsites.net/usuario', {
+        const resposta = await fetch('https://receita.azurewebsites.net/usuario', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json'
@@ -44,10 +44,10 @@ async function cadastrarReceita() {
         email: titulo,
         conteudo: conteudo
     };
-    
+
     // Enviando os dados para a API via método POST usando fetch
     try {
-        const resposta = await fetch('http://receita.azurewebsites.net/receitas', {
+        const resposta = await fetch('https://receita.azurewebsites.net/receitas', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json'

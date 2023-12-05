@@ -3,7 +3,7 @@
 // Função para fazer a requisição GET para a API
 async function fazerRequisicaoReceitas() {
     try {
-      const resposta = await fetch('http://receita.azurewebsites.net/receitas', {
+      const resposta = await fetch('https://receita.azurewebsites.net/receitas', {
         method: 'GET',
         mode: 'no-cors',
         headers: {
@@ -45,7 +45,7 @@ function mostrarDadosReceita(dados) {
 
 async function fazerRequisicaoUsuarios() {
     try {
-      const resposta = await fetch('http://receita.azurewebsites.net/usuarios', {
+      const resposta = await fetch('https://receita.azurewebsites.net/usuarios', {
         method: 'GET',
         mode: 'no-cors',
         headers: {
