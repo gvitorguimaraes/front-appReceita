@@ -13,3 +13,8 @@ body
 {
     margin-top: 50px;
 }
+
+nav{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
